@@ -1,0 +1,27 @@
+{
+    "image":{
+        "default":"",
+        "type": "filechooser",
+        "description":"Image:",
+        "allow-none":false,
+        "select-dir":false
+    },
+    "angle":{
+        "type":"scale",
+        "default":0,
+        "min":0,
+        "max":0,
+        "step":1,
+        "description":"Image angle",
+        "tooltip":"Set the angle of the image to add personality, the value goes from 0 to 360"
+    },
+    "size":{
+        "type":"scale",
+        "default":1,
+        "min":0.5,
+        "max":10,
+        "step":0.5,
+        "description":"Image size",
+        "tooltip":"Set te image scale to resize it to your liking"
+    }
+}
